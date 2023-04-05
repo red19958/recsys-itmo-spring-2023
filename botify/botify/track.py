@@ -26,7 +26,7 @@ class Catalog:
         self.tracks_with_diverse_recs = []
 
     # TODO Seminar 6 step 1: Configure reading tracks with diverse recommendations
-    def load(self, catalog_path, top_tracks_path, tracks_with_diverse_recs_path):
+    def load(self, catalog_path, top_tracks_path):
         self.app.logger.info(f"Loading tracks from {catalog_path}")
         with open(catalog_path) as catalog_file:
             for j, line in enumerate(catalog_file):
@@ -46,7 +46,7 @@ class Catalog:
             self.top_tracks = json.load(top_tracks_path_file)
         self.app.logger.info(f"Loaded top tracks {self.top_tracks[:3]} ...")
 
-        self.app.logger.info(f"Loading tracks with diverse recommendations from {tracks_with_diverse_recs_path}")
+        # self.app.logger.info(f"Loading tracks with diverse recommendations from {tracks_with_diverse_recs_path}")
 
         # your code is here
 
