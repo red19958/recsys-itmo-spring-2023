@@ -1,4 +1,7 @@
 # My Recommender
+## Какая жалость git не дает загрузить большие файлы
+
+Ссылка на [Disk](https://drive.google.com/drive/folders/1fGz29-59bnfN_pNGco7lRz-D8hAqVO_V?usp=sharing)
 
 ## Путь к успеху.
 
